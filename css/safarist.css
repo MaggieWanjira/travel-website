@@ -1,0 +1,87 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: orange;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+    left: 150px;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+/* styling the 3 images*/
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ /* fixed= parallax effect
+    scroll= normal
+ */   
+    background-attachment: fixed;
+
+}
+
+#sign-up{
+    background-color: orange;
+    color: ;
+}
+
+.pimg1{
+    background-image: url('../img/oliver.jpg');
+    min-height: 100%;
+ 
+}
+
+.pimg2{
+    background-image: url('../img/bali.jpg');
+    min-height: 500px;
+}
+
+
+.pimg3{
+    background-image: url('../img/lisa.jpg');
+    min-height: 500px;
+}
+
+section{
+    text-align: center;
+    padding: 40px 60px;
+}
+
+.section-dark{
+    background-color: black;
+    color: white;
+}
+
+.section-light{
+    background-color: black;
+    color: white;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
